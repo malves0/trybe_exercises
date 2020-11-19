@@ -1,0 +1,1 @@
+O README.md que você recriou é referente ao repositório trybe-exercises, tendo isso em mente é interessante que você adicione informações relacionadas ao curso da Trybe e o que você está desenvolvendo e o que irá desenvolver;
