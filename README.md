@@ -1,1 +1,1 @@
-O README.md que você recriou é referente ao repositório trybe-exercises, tendo isso em mente é interessante que você adicione informações relacionadas ao curso da Trybe e o que você está desenvolvendo e o que irá desenvolver;
+A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia. O seu programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metologias ágeis e habilidades comportamentais.
