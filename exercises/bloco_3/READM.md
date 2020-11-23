@@ -1,0 +1,2 @@
+O objetivo desses exercícios é colocar em prática o que você acabei de aprender sobre HTML semântico.
+Para tal, criarei uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. 
