@@ -5,7 +5,12 @@ let counter = 0;
 
 for(let index = 0; index < numbers.length; index = index + 1){
     if(numbers[index] % 2 != 0){
-        counter =+ 1;
+        counter += 1;
     }
 }
-console.log(counter);
+if(counter > 0){
+    console.log(counter);
+}else{
+    console.log('nenhum valor ímpar encontrado');
+}
+
