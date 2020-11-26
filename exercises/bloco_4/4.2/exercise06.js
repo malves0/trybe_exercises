@@ -8,9 +8,9 @@ for(let index = 0; index < numbers.length; index = index + 1){
         counter += 1;
     }
 }
+
 if(counter > 0){
     console.log(counter);
 }else{
     console.log('nenhum valor ímpar encontrado');
 }
-

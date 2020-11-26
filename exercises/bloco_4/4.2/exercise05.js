@@ -8,4 +8,4 @@ for(let index = 0; index < numbers.length; index = index + 1){
         maxNumber = numbers[index];
     }
 }
-console.log(maxNumber);
+console.log('O maior número é: ' + maxNumber);
