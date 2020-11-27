@@ -12,11 +12,12 @@ A <strong>Trybe</strong> é uma escola para pessoas que querem construir uma car
 
 ____________
 
-### Capacitações em Desenvolvimento
+## Capacitações em Desenvolvimento
 
-#### Construir um front-end
+#### Front-end
 Construção de um front-end a partir de especificações de UI e UX, que se comunica com uma API.
-#### Construir um back-end
+
+#### Back-end
 Construção de um back-end, seguindo padrões de arquitetura, conectando-se com um banco de dados e implementando uma interface REST.
 
 #### Algoritmos
