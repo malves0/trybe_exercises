@@ -1,6 +1,6 @@
-#Dia 4.2 | JavaScript - Array e loop For
+# Dia 4.2 | JavaScript - Array e loop For
 
-##Exercícios
+## Exercícios
 
 1. Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
 2. Para o segundo exercício, você deve somar todos os valores contidos no array e imprimir o resultado;
