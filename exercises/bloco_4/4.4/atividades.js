@@ -17,3 +17,19 @@ console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a
 //Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medelhas de prata".
 
 console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
+
+let cars = ["Saab", "Volvo", "BMW"];
+
+for (let i in cars) {
+  console.log(cars[i]);
+}
+
+let car = {
+    type: "Fiat",
+    model: "500",
+    color: "white",
+  };
+  
+  for (let i in car) {
+    console.log(i, car[i]);
+  }
