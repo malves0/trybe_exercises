@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .style-paragraph {
+      background-color: rgba(97, 204, 35, 0.294);
+      font-family:Arial, Helvetica, sans-serif ; 
+      font-style: italic;
+      color: gray;
+    }
+  </style>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="style-paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="style-paragraph">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "red";
+      //var title =  document.getElementById("page-title");
+      var title = document.querySelector('#page-title');
+      title.innerText = ("O Senhor dos Anéis")
+     document.querySelector("#second-paragraph").innerHTML = ("O Senhor dos Anéis (no original em inglês, The Lord of the Rings)<br> é uma trilogia cinematográfica dirigida por Peter Jackson com <br>base na obra-prima homónima de J. R. R. Tolkien.");
+      var subtitle = document.querySelector("#subtitle");
+      subtitle.innerText = ('Fantasia/Aventura');
+      var sParagraph = document.querySelector(".style-paragraph");
+      sParagraph.style.color = "blue";
+      var stitle = document.querySelector('h4');
+      
+    </script>
+  </body>
+</html>
