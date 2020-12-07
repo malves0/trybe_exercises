@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+ // Exercicio 1 
+  function changeParagraph() {
+    let paragraph = document.getElementsByTagName('p')[1];
+    paragraph.innerHTML = 'Daqui a dois me vejo feliz, exercendo a profissão que escolhi e sou apaixonada. Desenvolvedora Web Full-Stack!'
+  }
+ //Exercicio2
+  function changeSquare() {
+    let square = document.getElementsByClassName("main-content")[0];
+    square.style.background = "rgb(76,164,109)";
+ }
+ //Exercicio3
+  function changeSquareRed() {
+    let squareRed = document.getElementsByClassName("center-content")[0];
+    squareRed.style.background = ("white");
+ }
+ //Exercicio4
+  function changeText() {
+    let text = document.getElementsByTagName("h1")[0];
+    text.innerHTML = "Exercício 5.1 - JavaScript";
+ }
+ //Exercicio 5
+  function changeUpperCase() {
+    let paragraph = document.getElementsByTagName('p')[0];
+    paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+  }
+ //Exercicio 6
+  function showTags() {
+    let paragraphs = document.getElementsByTagName('p');
+    for (let index = 0; index < paragraphs.length; index += 1) {
+      console.log(paragraphs[index].innerHTML);
+    }
+  }
+  changeParagraph();
+  changeSquare();
+  changeSquareRed();
+  changeText();
+  changeUpperCase();
+  showTags();
+    </script>
+  </body>
+</html>
