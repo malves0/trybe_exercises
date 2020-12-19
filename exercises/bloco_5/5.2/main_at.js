@@ -41,15 +41,7 @@ local = document.querySelector("#filhoDoPrimeiroFilhoDoFilho")
 local = local.parentNode.parentNode.parentNode.childNodes[5]
 console.log(local)
 // Parte III
-//1
-
-var elemento = document.getElementById("paiDoPai");
-while (elemento.firstChild) {
-    let id = elemento.firstChild.id
-    console.log(id)
-   // if (id !== 'pai'){
-        elemento.removeChild(elemento.firstChild);
-  // }
+var element = document.querySelector("div");
+while (element.firstChild) {
+element.removeChild(element.firstChild);
 }
-
-/** Remova todos os elementos da página, menos `pai` , `elementoOndeVoceEsta` e `primeiroFilhoDoFilho` .*/
