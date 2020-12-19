@@ -42,11 +42,10 @@ father = document.querySelector('.right-content');
 newDiv = document.createElement('ul');
 father.appendChild(newDiv);
 
-for(let index = 0; index < numbersList.length; index += 1) {
-    let itemList = numbersList[index];
+for(let index in numbersList) {
     let newNumber = document.createElement('li');
-    newNumber.innerText = itemList;
-    father.appendChild(newNumber);
+    newNumber.innerHTML = numbersList[index];
+    father.firstChild.appendChild(newNumber);
 }
 //9
 father = document.querySelector('.main-content');
@@ -68,3 +67,8 @@ divLeft.parentNode.removeChild(divLeft)
 document.getElementsByClassName('right-content')[0].style.marginRight='auto'
 //14
 document.getElementsByClassName('center-content')[0].style.backgroundColor = 'green'
+//15
+let itemRemove = document.getElementsByTagName('ul')[0];
+itemRemove.lastChild.remove()
+itemRemove.lastChild.remove()
+
