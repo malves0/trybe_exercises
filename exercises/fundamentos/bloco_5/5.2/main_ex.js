@@ -22,7 +22,29 @@ newDiv = document.createElement('div');
 father.appendChild(newDiv).className = 'right-content';
 //7
 newDiv = document.createElement('img');
-father = document.querySelector('.left-content')
+father = document.querySelector('.left-content');
 father.appendChild(newDiv).src = 'https://picsum.photos/200';
-father.firstChild.className = 'small-image'
+father.firstChild.className = 'small-image';
 //8
+let numbersList = [
+    'um',
+    'dois',
+    'três',
+    'quatro',
+    'cinco',
+    'seis',
+    'sete',
+    'oito',
+    'nove',
+    'dez'
+];
+father = document.querySelector('.right-content');
+newDiv = document.createElement('ul');
+father.appendChild(newDiv);
+
+for(let index = 0; index < numbersList.length; index += 1) {
+    let itemList = numbersList[index];
+    let newNumber = document.createElement('li');
+    newNumber.innerText = itemList;
+    father.appendChild(newNumber);
+}
