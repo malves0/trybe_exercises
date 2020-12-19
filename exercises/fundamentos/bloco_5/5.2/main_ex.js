@@ -42,9 +42,33 @@ father = document.querySelector('.right-content');
 newDiv = document.createElement('ul');
 father.appendChild(newDiv);
 
-for(let index = 0; index < numbersList.length; index += 1) {
-    let itemList = numbersList[index];
+for(let index in numbersList) {
     let newNumber = document.createElement('li');
-    newNumber.innerText = itemList;
-    father.appendChild(newNumber);
+    newNumber.innerHTML = numbersList[index];
+    father.firstChild.appendChild(newNumber);
 }
+//9
+father = document.querySelector('.main-content');
+for(let cont = 1; cont <= 3; cont += 1){
+    newDiv = document.createElement('h3')
+    father.appendChild(newDiv)
+}
+//10
+document.querySelector('h1').className = 'title';
+//11
+let arrayH3 = document.getElementsByTagName('h3');
+for(let cont = 0; cont < arrayH3.length; cont += 1){
+    arrayH3[cont].className = 'description';
+}
+//12
+let divLeft = document.getElementsByClassName('left-content')[0];
+divLeft.parentNode.removeChild(divLeft)
+//13
+document.getElementsByClassName('right-content')[0].style.marginRight='auto'
+//14
+document.getElementsByClassName('center-content')[0].style.backgroundColor = 'green'
+//15
+let itemRemove = document.getElementsByTagName('ul')[0];
+itemRemove.lastChild.remove()
+itemRemove.lastChild.remove()
+
