@@ -54,3 +54,5 @@ for(let cont = 1; cont <= 3; cont += 1){
     newDiv = document.createElement('h3')
     father.appendChild(newDiv)
 }
+//10
+document.querySelector('h1').className = 'title';
