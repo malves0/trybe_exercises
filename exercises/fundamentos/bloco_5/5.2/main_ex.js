@@ -56,3 +56,8 @@ for(let cont = 1; cont <= 3; cont += 1){
 }
 //10
 document.querySelector('h1').className = 'title';
+//11
+let arrayH3 = document.getElementsByTagName('h3');
+for(let cont = 0; cont < arrayH3.length; cont += 1){
+    arrayH3[cont].className = 'description';
+}
