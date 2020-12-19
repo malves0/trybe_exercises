@@ -48,3 +48,9 @@ for(let index = 0; index < numbersList.length; index += 1) {
     newNumber.innerText = itemList;
     father.appendChild(newNumber);
 }
+//9
+father = document.querySelector('.main-content');
+for(let cont = 1; cont <= 3; cont += 1){
+    newDiv = document.createElement('h3')
+    father.appendChild(newDiv)
+}
