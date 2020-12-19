@@ -61,3 +61,6 @@ let arrayH3 = document.getElementsByTagName('h3');
 for(let cont = 0; cont < arrayH3.length; cont += 1){
     arrayH3[cont].className = 'description';
 }
+//12
+let divLeft = document.getElementsByClassName('left-content')[0];
+divLeft.parentNode.removeChild(divLeft)
