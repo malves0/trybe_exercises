@@ -1,4 +1,4 @@
-## Bloco 05: JavaScript: DOM, Eventos e Web Storage
+# Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
 - 01: JavaScript - DOM e seletores
 - 02: JavaScript - Trabalhando com elementos

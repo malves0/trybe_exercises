@@ -1,5 +1,5 @@
 # Bloco 5 - JavaScript: DOM, Eventos e Web Storage
-## JavaScript - Trabalhando com elementos
+## Dia 2 - JavaScript - Trabalhando com elementos
 
 ### Parte I - Buscando Elementos
 #### Atividade de reforço de conteúdo
