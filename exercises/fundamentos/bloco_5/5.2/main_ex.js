@@ -64,3 +64,7 @@ for(let cont = 0; cont < arrayH3.length; cont += 1){
 //12
 let divLeft = document.getElementsByClassName('left-content')[0];
 divLeft.parentNode.removeChild(divLeft)
+//13
+document.getElementsByClassName('right-content')[0].style.marginRight='auto'
+//14
+document.getElementsByClassName('center-content')[0].style.backgroundColor = 'green'
