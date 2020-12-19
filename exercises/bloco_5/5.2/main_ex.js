@@ -17,3 +17,11 @@ father.appendChild(newDiv).innerText = 'O objetivo desses exercícios é colocar
 newDiv = document.createElement('div');
 father = document.querySelector('.main-content')
 father.appendChild(newDiv).className = 'left-content';
+//6
+newDiv = document.createElement('div');
+father.appendChild(newDiv).className = 'right-content';
+//7
+newDiv = document.createElement('img');
+father = document.querySelector('.left-content')
+father.appendChild(newDiv).src = 'https://picsum.photos/200';
+father.firstChild.className = 'small-image'
