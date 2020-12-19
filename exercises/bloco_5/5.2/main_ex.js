@@ -1,4 +1,7 @@
 //1
-let divTitleOne = document.createElement('h1');
+let newDiv = document.createElement('h1');
 let father = document.querySelector('body');
-father.appendChild(divTitleOne).innerText = 'Exercício 5.2 - JavaScript DOM';
+father.appendChild(newDiv).innerText = 'Exercício 5.2 - JavaScript DOM';
+//2
+newDiv = document.createElement('div');
+father.appendChild(newDiv).className = 'main-content';
