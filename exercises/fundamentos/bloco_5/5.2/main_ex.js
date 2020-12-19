@@ -25,3 +25,4 @@ newDiv = document.createElement('img');
 father = document.querySelector('.left-content')
 father.appendChild(newDiv).src = 'https://picsum.photos/200';
 father.firstChild.className = 'small-image'
+//8

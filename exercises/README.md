@@ -1,13 +1,13 @@
+# Conteúdos do Curso
 
-# Fundamentos do Desenvolvimento Web
+## Fundamentos do Desenvolvimento Web
+O objetivo deste primeiro módulo é construir os fundamentos necessários para o início no mundo Desenvolvimento Web.
 
-- Bloco 01: Unix, Bash e Shell Script
-- Bloco 02: Git, GitHub e Internet
-- Bloco 03: Introdução à HTML e CSS
-- Bloco 04: Introdução à JavaScript e Lógica de Programação
-- Bloco 05: JavaScript: DOM, Eventos e Web Storage
-- Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
-- Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
-- Bloco 08: Higher Order Functions do JavaScript ES6
-- Bloco 09: JavaScript Assíncrono e Promises
-- Bloco 10: Testes automatizados com Jest
+## Desenvolvimento Front-end
+Aqui você vai aprender as técnicas e ferramentas mais atuais para desenvolver um código de front-end que seja rápido, bonito e testável.
+
+## Desenvolvimento Back-end
+Neste módulo, você vai aprender como desenvolver um código de back-end robusto, limpo, escalável e seguro, dominando o uso de bancos de dados, a construção de APIs com testes automatizados.
+
+## Ciência da Computação
+Aqui, você aprenderá os principais conceitos da Ciência da Computação que são aplicados no dia a dia do desenvolvomento de software e como transformar a teoria em prática, analisando algoritmos e escolhendo as melhores estruturas de dados para resolver os problemas!
