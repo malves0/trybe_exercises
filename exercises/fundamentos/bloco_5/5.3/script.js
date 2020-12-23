@@ -14,3 +14,39 @@ function createDaysOfTheWeek() {
   createDaysOfTheWeek();
   
   // Escreva seu código abaixo.
+  //1
+  const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+  function addDays(){
+    father = document.querySelector('#days');
+    for (let index in dezDaysList){
+      let newli = document.createElement('li')
+      let day = dezDaysList[index];
+      if (day === 24 | day === 31) {
+        newli.className = 'day holiday';
+        newli.innerHTML = day;
+        father.appendChild(newli);
+      } else if (day === 4 | day === 11 | day === 18) {
+        newli.className = 'day friday-day';
+        newli.innerHTML = day;
+        father.appendChild(newli);
+      } else if (day === 25) {
+        newli.className = 'day holiday friday-day';
+        newli.innerHTML = day;
+        father.appendChild(newli);
+      } else {
+        newli.innerHTML = day;
+        newli.className = 'day';
+        father.appendChild(newli);
+      }
+    }
+  }
+  addDays();
+//2
+function createButton(string){
+let fatherButton = document.querySelector('.buttons-container');
+let newButoon = document.createElement('button');
+newButoon.innerText = string;
+newButoon.id = 'btn-holiday';
+fatherButton.appendChild(newButoon);
+}
+createButton('Feriados');
