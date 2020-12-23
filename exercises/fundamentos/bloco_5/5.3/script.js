@@ -43,10 +43,25 @@ function createDaysOfTheWeek() {
   addDays();
 //2
 function createButton(string){
-let fatherButton = document.querySelector('.buttons-container');
-let newButoon = document.createElement('button');
-newButoon.innerText = string;
-newButoon.id = 'btn-holiday';
-fatherButton.appendChild(newButoon);
+  let fatherButton = document.querySelector('.buttons-container');
+  let newButoon = document.createElement('button');
+  newButoon.innerText = string;
+  newButoon.id = 'btn-holiday';
+  fatherButton.appendChild(newButoon);
 }
 createButton('Feriados');
+//3
+let holidayButton = document.querySelector('#btn-holiday');
+holidayButton.addEventListener('click',clickHolidays);
+function clickHolidays() {
+let arraysDays = document.querySelectorAll('.holiday');
+let backgroundColor = 'rgb(238,238,238)';
+let setNewColor = 'pink';
+  for (let index = 0; index < arraysDays.length; index+=1){
+    if (arraysDays[index].style.backgroundColor === setNewColor) {
+      arraysDays[index].style.backgroundColor = backgroundColor;
+    } else {
+      arraysDays[index].style.backgroundColor = setNewColor;
+  }
+}
+}
