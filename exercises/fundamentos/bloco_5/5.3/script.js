@@ -74,3 +74,19 @@ function createButtonFriday (string){
   fatherButtonFriday.appendChild(newButoonFriday);
 }
 createButtonFriday('Sexta-Feira');
+//5
+let fridayButton = document.querySelector('#btn-friday');
+fridayButton.addEventListener('click',clickFriday);
+function clickFriday() {
+let text = 'Sextou \o/';
+let fridays = document.querySelectorAll('.friday-day');
+let fridaysArray = [ 4, 11, 18, 25 ]
+  for (let index = 0; index < fridays.length; index += 1){
+    if (fridays[index].innerHTML !== text) {
+      fridays[index].innerHTML = text;
+    } else {
+      fridays[index].innerHTML = fridaysArray[index];
+  }
+}
+}
+
