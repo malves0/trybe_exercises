@@ -65,3 +65,12 @@ let setNewColor = 'pink';
   }
 }
 }
+//4
+function createButtonFriday (string){
+  let fatherButtonFriday = document.querySelector('.buttons-container');
+  let newButoonFriday = document.createElement('button');
+  newButoonFriday.innerText = string;
+  newButoonFriday.id = 'btn-friday'
+  fatherButtonFriday.appendChild(newButoonFriday);
+}
+createButtonFriday('Sexta-Feira');
