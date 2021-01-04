@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Currículo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+       <h1>Formulário de Currículo</h1> 
+    </header>
+    <form class="" action='' method='GET'>
+        <fieldset class="">
+            <legend>Dados Pessoais</legend>
+            <!-- NOME -->
+            <div class='line-content'>
+                <label for='full-name'>Nome: </label>
+                <input id='full-name' type="text" maxlength="40" required>
+            </div>
+            <!-- EMAIL -->
+            <div class='line-content'>
+                <label for='email'>Email: </label>
+                <input id='email' type="text" maxlength="50" required>
+            </div>
+            <!-- CPF -->
+            <div class='line-content'>
+                <label for='cpf'>CPF: </label>
+                <input id='cpf' type="text" maxlength="11" required>
+            </div>        
+            <!-- ENDEREÇO -->
+            <div class='line-content'>
+               <label for='endereco'>Endereço:</label>
+               <input id='endereco' type="text" maxlength="200" required>
+            </div>           
+            <!-- CIDADE -->
+            <div class='line-content'>
+                <label for='cidade'>Cidade:</label>
+                <input id='cidade' type="text" maxlength="28" required>
+            </div>
+            <!-- ESTADO -->
+            <div class="line-content">
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado">
+                    <option value="mg">Minas Gerais</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="am">Amazonas</option>
+                </select>
+            </div>
+       </fieldset>
+    </form>   
 </body>
 <script src="script.js"></script>
 </html>
