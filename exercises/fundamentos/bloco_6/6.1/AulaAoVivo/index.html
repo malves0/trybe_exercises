@@ -20,7 +20,25 @@
             <label for='full-name'>Nome</label>
             <input id='full-name' type="text">
         </div>
-        <!-- DESCRIÇÃO DA PALESTRA-->
+        <!-- TIPO DA PALESTRA-->
+        <div class="line-content">
+            <fieldset class="fieldset-talk-type">
+                <!-- Faz um agrupamento-->
+                <legend>Tipo de Palestra</legend>
+                <input type="radio" 
+                    name="talk-type" 
+                    id="talk-type-stage"
+                    value="main-stage">
+                <label for="talk-type-stage">Palco Principal</label>
+
+                <input type="radio" 
+                    name="talk-type" 
+                    id="talk-type-workshop"
+                    value="workshop">
+                <label for="talk-type-worksho">Workshop</label>
+
+            </fieldset>
+        </div>
     </form>
 </body>
 </html>
