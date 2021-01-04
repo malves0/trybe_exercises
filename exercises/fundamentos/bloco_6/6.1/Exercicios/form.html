@@ -41,13 +41,43 @@
             <!-- ESTADO -->
             <div class="line-content">
                 <label for="estado">Estado:</label>
-                <select name="estado" id="estado">
+                <select name="estado" id="estado" required>
                     <option value="mg">Minas Gerais</option>
                     <option value="rj">Rio de Janeiro</option>
                     <option value="sp">São Paulo</option>
                     <option value="am">Amazonas</option>
                 </select>
             </div>
+            <!-- ESTADO -->
+            <div class="line-content">
+                <input type="radio" name="tipo" id="tipo-casa" value="tipo" required>
+                <label for="tipo">Casa</label>
+                <input type="radio" name="tipo" id="tipo-apt" value="tipo" required>
+                <label for="tipo">Apartamento</label>
+            </div>
+       </fieldset>
+       <fieldset class="">
+        <legend>Dados do último emprego</legend>
+        <!-- RESUMO DO CURRÍCULO -->
+        <div class="line-content">
+            <label for="abstract">Resumo do currículo:</label>
+            <textarea name="abstract" id="abstract" class="abstract-style" maxlength="1000" required></textarea>
+        </div>
+        <!--CARGO-->
+        <div class="line-content">
+            <label for="cargo">Cargo:</label>
+            <input type="text" name="cargo" id="cargo" maxlength="40" required>
+        </div>
+         <!--DESCRIÇÃO DO CARGO-->
+        <div class="line-content">
+            <label for="descricao-cargo">Descrição do Cargo:</label>
+            <input type="text" name="desc-cargo" id="descricao-cargo" maxlength="500" required>
+        </div>
+         <!--DATA DE INICIO-->
+         <div class="line-content">
+            <label for="data-inicio">Data de Inicio:</label>
+            <input type="date" name="data-inicio" id="data-inicio" required>
+        </div>
        </fieldset>
     </form>   
 </body>

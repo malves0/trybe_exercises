@@ -1,0 +1,15 @@
+.line-content input[type='text'] {
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 217, 220);
+}
+
+.line-content{
+    margin:  20px;
+}
+
+.abstract-style{
+    width: 100%;
+}
