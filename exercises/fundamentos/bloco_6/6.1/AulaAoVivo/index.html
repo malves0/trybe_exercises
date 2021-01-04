@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencia da T9! A melhor do mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="speaker-form-header box-style">
+        <!--Titulo-->
+        <h1>Conferencia da T9</h1>
+        <!--Subtitulo-->
+        <p><em>Quer palestrar na melhor conferencia do mundo? Preencha o formulário</em></p>
+    </header>
+
+    <form class="speaker-form box-style" action='' method='GET'>
+        <!-- NOME -->
+        <div class='line-content'>
+            <label for='full-name'>Nome</label>
+            <input id='full-name' type="text">
+        </div>
+        <!-- TIPO DA PALESTRA-->
+        <div class="line-content">
+            <fieldset class="fieldset-talk-type">
+                <!-- Faz um agrupamento-->
+                <legend>Tipo de Palestra</legend>
+                <input type="radio" 
+                    name="talk-type" 
+                    id="talk-type-stage"
+                    value="main-stage">
+                <label for="talk-type-stage">Palco Principal</label>
+
+                <input type="radio" 
+                    name="talk-type" 
+                    id="talk-type-workshop"
+                    value="workshop">
+                <label for="talk-type-worksho">Workshop</label>
+            </fieldset>
+        </div>
+        <!-- INFO CAMISA -->
+        <div class="line-content">
+            <label for="t-shirt">Tamanho da camisa</label>
+            <select name="t-shirt" id="t-shirt">
+                <option value="p">Pequeno</option>
+                <option value="m">Médio</option>
+                <option value="g">Grande</option>
+                <option value="gg">Extra Grande</option>
+            </select>
+        </div>
+        <!-- DESCRIÇÃO DA PALESTRA -->
+        <div class="line-content">
+            <label for="abstract">Descrição da Palestra</label>
+            <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
+        </div>
+         <!-- DISPONIBILIDADE -->
+         <div class="line-content">
+            <input type="checkbox" name="availability" id="availability">
+            <span>Estou disponível nessa data!</span>
+        </div>
+        <!-- BOTAO DE ENVIAR -->
+        <div class="line-content">
+            <button type="submit">ENVIAR!</button>
+        </div>
+    </form>
+</body>
+</html>
