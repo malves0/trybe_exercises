@@ -14,49 +14,58 @@
   <hr>
   <div class="section">
     <form action='' method='GET'>
-      <!-- NOME -->
-      <label for='full-name'>Nome</label>
-      <input id='full-name' type="text">
-      <!-- TIPO DA PALESTRA-->
-      <fieldset>
-      <!-- Faz um agrupamento-->
-        <legend>Tipo de Palestra</legend>
+      <div class="control">
+        <!-- NOME -->
+        <div class="field">
+            <label class="label" for='full-name'>Nome</label>
+            <input class="input" id='full-name' type="text">
+        </div>
+        <!-- TIPO DA PALESTRA-->
+        <div class="field" >
+        <p class="label">Tipo de Palestra</p>
         <input type="radio" 
           name="talk-type" 
-          id="talk-type-stage"
-                      value="main-stage">
-                  <label for="talk-type-stage">Palco Principal</label>
-  
-                  <input type="radio" 
-                      name="talk-type" 
-                      id="talk-type-workshop"
-                      value="workshop">
-                  <label for="talk-type-worksho">Workshop</label>
-              </fieldset>
-      
-          <!-- INFO CAMISA -->
-  
-              <label for="t-shirt">Tamanho da camisa</label>
-              <select name="t-shirt" id="t-shirt">
-                  <option value="p">Pequeno</option>
-                  <option value="m">Médio</option>
-                  <option value="g">Grande</option>
-                  <option value="gg">Extra Grande</option>
-              </select>
-      
-          <!-- DESCRIÇÃO DA PALESTRA -->
-  
-              <label for="abstract">Descrição da Palestra</label>
-              <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
-      
-           <!-- DISPONIBILIDADE -->
-      
-              <input type="checkbox" name="availability" id="availability">
-              <span>Estou disponível nessa data!</span>
-      
-          <!-- BOTAO DE ENVIAR -->
-  
-              <button type="submit">ENVIAR!</button>
+            id="talk-type-stage"
+            value="main-stage">
+          <label for="talk-type-stage">Palco Principal</label>
+          <input type="radio" 
+            name="talk-type" 
+            id="talk-type-workshop"
+            value="workshop">
+          <label for="talk-type-worksho">Workshop</label>
+        </div>
+        
+        <!-- INFO CAMISA -->
+        <div class="field">
+          <div class="selected">
+            <label class="label" for="t-shirt">Tamanho da camisa</label>
+            <select name="t-shirt" id="t-shirt">
+              <option value="p">Pequeno</option>
+              <option value="m">Médio</option>
+              <option value="g">Grande</option>
+              <option value="gg">Extra Grande</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+
+    <!-- INFO CAMISA -->
+    <label for="t-shirt">Tamanho da camisa</label>
+      <select name="t-shirt" id="t-shirt">
+        <option value="p">Pequeno</option>
+        <option value="m">Médio</option>
+        <option value="g">Grande</option>
+        <option value="gg">Extra Grande</option>
+      </select>
+    <!-- DESCRIÇÃO DA PALESTRA -->
+    <label for="abstract">Descrição da Palestra</label>
+    <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
+    <!-- DISPONIBILIDADE -->
+    <input type="checkbox" name="availability" id="availability">
+    <span>Estou disponível nessa data!</span>
+    <!-- BOTAO DE ENVIAR -->
+    <button type="submit">ENVIAR!</button>
       
     </form>
   </div>
