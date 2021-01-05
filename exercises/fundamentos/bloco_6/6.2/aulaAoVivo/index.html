@@ -27,12 +27,12 @@
           name="talk-type" 
             id="talk-type-stage"
             value="main-stage">
-          <label for="talk-type-stage">Palco Principal</label>
+          <label class="radio" for="talk-type-stage">Palco Principal</label>
           <input type="radio" 
             name="talk-type" 
             id="talk-type-workshop"
             value="workshop">
-          <label for="talk-type-worksho">Workshop</label>
+          <label class="radio" for="talk-type-worksho">Workshop</label>
         </div>
         
         <!-- INFO CAMISA -->
@@ -48,22 +48,22 @@
           </div>
         </div>
 
+        <!-- DESCRIÇÃO DA PALESTRA -->
+        <div class="field"> 
+        <label class="label" for="abstract">Descrição da Palestra</label>
+        <textarea name="abstract" id="abstract" class="textarea"></textarea>
+        </div>
+        
+        <!-- DISPONIBILIDADE -->
+        <div class="field">
+            <label class="checkbox" for="">
+                <input type="checkbox" name="availability" id="availability">
+                Estou disponível nessa data!
+            </label>
+        </div>
+
       </div>
 
-    <!-- INFO CAMISA -->
-    <label for="t-shirt">Tamanho da camisa</label>
-      <select name="t-shirt" id="t-shirt">
-        <option value="p">Pequeno</option>
-        <option value="m">Médio</option>
-        <option value="g">Grande</option>
-        <option value="gg">Extra Grande</option>
-      </select>
-    <!-- DESCRIÇÃO DA PALESTRA -->
-    <label for="abstract">Descrição da Palestra</label>
-    <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
-    <!-- DISPONIBILIDADE -->
-    <input type="checkbox" name="availability" id="availability">
-    <span>Estou disponível nessa data!</span>
     <!-- BOTAO DE ENVIAR -->
     <button type="submit">ENVIAR!</button>
       
