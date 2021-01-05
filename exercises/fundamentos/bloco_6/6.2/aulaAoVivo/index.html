@@ -1,67 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conferencia da T9! A melhor do mundo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conferencia da T9! A melhor do mundo</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
 </head>
 <body>
-    <header>
-        <!--Titulo-->
-        <h1>Conferencia da T9</h1>
-        <!--Subtitulo-->
-        <p><em>Quer palestrar na melhor conferencia do mundo? Preencha o formulário</em></p>
-    </header>
-
+  <header class="section">
+    <h1 class="title has-text-centered">Conferencia da T9</h1>
+    <p class="subtitle has-text-centered""><em>Quer palestrar na melhor conferencia do mundo? Preencha o formulário</em></p>
+  </header>
+  <hr>
+  <div class="section">
     <form action='' method='GET'>
-        <!-- NOME -->
+      <!-- NOME -->
+      <label for='full-name'>Nome</label>
+      <input id='full-name' type="text">
+      <!-- TIPO DA PALESTRA-->
+      <fieldset>
+      <!-- Faz um agrupamento-->
+        <legend>Tipo de Palestra</legend>
+        <input type="radio" 
+          name="talk-type" 
+          id="talk-type-stage"
+                      value="main-stage">
+                  <label for="talk-type-stage">Palco Principal</label>
+  
+                  <input type="radio" 
+                      name="talk-type" 
+                      id="talk-type-workshop"
+                      value="workshop">
+                  <label for="talk-type-worksho">Workshop</label>
+              </fieldset>
       
-            <label for='full-name'>Nome</label>
-            <input id='full-name' type="text">
+          <!-- INFO CAMISA -->
+  
+              <label for="t-shirt">Tamanho da camisa</label>
+              <select name="t-shirt" id="t-shirt">
+                  <option value="p">Pequeno</option>
+                  <option value="m">Médio</option>
+                  <option value="g">Grande</option>
+                  <option value="gg">Extra Grande</option>
+              </select>
       
-        <!-- TIPO DA PALESTRA-->
-
-            <fieldset>
-                <!-- Faz um agrupamento-->
-                <legend>Tipo de Palestra</legend>
-                <input type="radio" 
-                    name="talk-type" 
-                    id="talk-type-stage"
-                    value="main-stage">
-                <label for="talk-type-stage">Palco Principal</label>
-
-                <input type="radio" 
-                    name="talk-type" 
-                    id="talk-type-workshop"
-                    value="workshop">
-                <label for="talk-type-worksho">Workshop</label>
-            </fieldset>
-    
-        <!-- INFO CAMISA -->
-
-            <label for="t-shirt">Tamanho da camisa</label>
-            <select name="t-shirt" id="t-shirt">
-                <option value="p">Pequeno</option>
-                <option value="m">Médio</option>
-                <option value="g">Grande</option>
-                <option value="gg">Extra Grande</option>
-            </select>
-    
-        <!-- DESCRIÇÃO DA PALESTRA -->
-
-            <label for="abstract">Descrição da Palestra</label>
-            <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
-    
-         <!-- DISPONIBILIDADE -->
-    
-            <input type="checkbox" name="availability" id="availability">
-            <span>Estou disponível nessa data!</span>
-    
-        <!-- BOTAO DE ENVIAR -->
-
-            <button type="submit">ENVIAR!</button>
-    
+          <!-- DESCRIÇÃO DA PALESTRA -->
+  
+              <label for="abstract">Descrição da Palestra</label>
+              <textarea name="abstract" id="abstract" class="abstract-style"></textarea>
+      
+           <!-- DISPONIBILIDADE -->
+      
+              <input type="checkbox" name="availability" id="availability">
+              <span>Estou disponível nessa data!</span>
+      
+          <!-- BOTAO DE ENVIAR -->
+  
+              <button type="submit">ENVIAR!</button>
+      
     </form>
+  </div>
 </body>
 </html>
