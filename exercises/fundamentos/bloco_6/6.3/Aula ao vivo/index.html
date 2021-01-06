@@ -17,6 +17,8 @@
       background-color: #5995da;
       color: white;
       padding: 20px 0;
+      position: fixed;
+      width: 100%;
     }
 
     .links{
@@ -27,9 +29,25 @@
     .login {
       margin-left: 20px;
     }
+
+    .header {
+      display: flex;
+      height: 300px;
+      background-color: #d6e9fe;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .grid {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    
     </style>
 </head>
 <body>
+    <!-- MENU -->
   <nav class="menu">
     <div class="date">Wed 6, Jan</div>
     <div class="links">
@@ -37,5 +55,22 @@
       <div class="login">Login</div>
     </div>
   </nav>
+
+  <!-- HEADER -->
+  <header class="header">
+    <span class="subscribe">Subscribe &#9662;</span>
+    <img src="awesome-logo" alt="">
+    <img src="social-icons.png" alt="">
+  </header>
+
+  <!-- GRID -->
+  <section class="grid">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+
+  </section>
 </body>
 </html>
