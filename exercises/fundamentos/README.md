@@ -6,7 +6,7 @@
 - [X] Bloco 02: Git, GitHub e Internet
 - [X] Bloco 03: Introdução à HTML e CSS
 - [X] Bloco 04: Introdução à JavaScript e Lógica de Programação
-- [ ] Bloco 05: JavaScript: DOM, Eventos e Web Storage
+- [X] Bloco 05: JavaScript: DOM, Eventos e Web Storage
 - [ ] Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 - [ ] Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 - [ ] Bloco 08: Higher Order Functions do JavaScript ES6
