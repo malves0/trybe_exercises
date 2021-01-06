@@ -1,4 +1,4 @@
-# Bloco 03: Introdução à HTML e CSS
+# Bloco 03: Introdução à HTML e CSS.
 
 [X] 01: Introdução - HTML & CSS
 [X] 01: HTML & CSS - Estruturas de página
