@@ -1,2 +1,7 @@
-O objetivo desses exercícios é colocar em prática o que você acabei de aprender sobre HTML semântico.
-Para tal, criarei uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. 
+# Bloco 03: Introdução à HTML e CSS
+
+[X] 01: Introdução - HTML & CSS
+[X] 01: HTML & CSS - Estruturas de página
+[X] 02: HTML & CSS - Primeiros passos em CSS
+[X] 03: HTML & CSS - Seletores e posicionamento
+[X] 04: HTML Semântico
