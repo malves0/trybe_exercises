@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Opens Sans', sans-serif;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+/* quando eu tiver um elemento html a e meu mouse em cima da dele*/
+a:houver {
+    opacity: 1;
+}
+
+a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+header img {
+    width: 200px;
+}
+
+.hero {
+    background-image: url(./imagens/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+
+}
+
