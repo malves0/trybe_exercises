@@ -18,17 +18,17 @@ function sum(a, b) {
 }
 
 // implemente seus testes aqui
-// 1
+
 assert.strictEqual(typeof sum, 'function');
-// 2
+
 assert.deepStrictEqual(sum(4, 5), 9);
-// 3
+
 assert.deepStrictEqual(sum(0, 0), 0);
-// 4
+
 assert.throws(() => {
   sum(4, '5');
 });
-//5
+
 assert.throws(() => {
     sum(4, '5');
 }, /^Error: parameters must be numbers$/);
