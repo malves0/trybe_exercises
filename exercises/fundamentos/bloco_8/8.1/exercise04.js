@@ -109,7 +109,6 @@ const expectedResult = [
 ] ;
 // Ordene os livros por data de lançamento em ordem decrescente.
 function booksOrderedByReleaseYearDesc() {
-  // escreva aqui seu código
   return books.sort((element1, element2) => element2.releaseYear - element1.releaseYear);
 }
 
