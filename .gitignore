@@ -6,5 +6,6 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 *.code-workspace
+node_modules/
 
 # End of https://www.toptal.com/developers/gitignore/api/code
