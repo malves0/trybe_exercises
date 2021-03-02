@@ -1,8 +1,8 @@
 # Desenvolvimento Front-end
 Neste módulo, você vai aprender as técnicas e ferramentas mais atuais para desenvolver um código de front-end que seja rápido, bonito e testável.
 
-- [ ] Bloco 11: Introdução à React
-- [ ] Bloco 12: Componentes com Estado, Eventos e Formulários com React
+- [X] Bloco 11: Introdução à React
+- [X] Bloco 12: Componentes com Estado, Eventos e Formulários com React
 - [ ] Bloco 13: Ciclo de Vida de Componentes e React Router
 - [ ] Bloco 14: Metodologias Ágeis
 - [ ] Bloco 15: Testes automatizados com React Testing Library
