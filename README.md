@@ -1,4 +1,4 @@
-<img src="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3-p-500.png">
+<img src="https://theme.zdassets.com/theme_assets/9633455/9814df697eaf49815d7df109110815ff887b3457.png" width="200">
 
 ____________
 
