@@ -1,0 +1,3 @@
+[submodule "exercises/front-end/bloco_15/15.1/exercise-todo-list"]
+	path = exercises/front-end/bloco_15/15.1/exercise-todo-list
+	url = git@github.com:malves0/exercise-todo-list.git
