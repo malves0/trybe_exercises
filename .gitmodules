@@ -1,6 +1,12 @@
 [submodule "exercises/front-end/bloco_15/15.1/exercise-todo-list"]
 	path = exercises/front-end/bloco_15/15.1/exercise-todo-list
 	url = git@github.com:malves0/exercise-todo-list.git
+
 [submodule "exercises/front-end/bloco_15/15.1/exercise-tic-tac-toe"]
 	path = exercises/front-end/bloco_15/15.1/exercise-tic-tac-toe
 	url = git@github.com:malves0/exercise-tic-tac-toe.git
+
+[submodule "exercises/front-end/bloco_16/exercises-redux-step-by-step"]
+	path = exercises/front-end/bloco_16/exercises-redux-step-by-step
+	url = git@github.com:malves0/exercises-redux-step-by-step.git
+
