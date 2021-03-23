@@ -4,3 +4,6 @@
 [submodule "exercises/front-end/bloco_16/exercises-redux-step-by-step"]
 	path = exercises/front-end/bloco_16/exercises-redux-step-by-step
 	url = git@github.com:malves0/exercises-redux-step-by-step.git
+[submodule "exercises/front-end/bloco_16/16.2/exercises-redux-step-by-step"]
+	path = exercises/front-end/bloco_16/16.2/exercises-redux-step-by-step
+	url = git@github.com:malves0/exercises-redux-step-by-step.git
