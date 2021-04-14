@@ -13,3 +13,6 @@
 [submodule "exercises/front-end/bloco_13/13.1/exercise-dog-image"]
 	path = exercises/front-end/bloco_13/13.1/exercise-dog-image
 	url = git@github.com:malves0/exercise-dog-image.git
+[submodule "exercises/front-end/bloco_13/13.2/comprehension-exercises-router"]
+	path = exercises/front-end/bloco_13/13.2/comprehension-exercises-router
+	url = git@github.com:malves0/comprehension-exercises-router.git
