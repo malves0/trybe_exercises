@@ -20,3 +20,4 @@ db.movies.insertMany([
 ]);
 
 db.movies.find();
+
