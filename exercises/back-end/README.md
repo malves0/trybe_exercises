@@ -22,6 +22,6 @@
 
 - [ ] Bloco 30: Arquitetura: SOLID e ORM 
 
-- [] Bloco 31: Sockets 
+- [ ] Bloco 31: Sockets 
 
-- [] Bloco 32: Projeto - App de Delivery 
+- [ ] Bloco 32: Projeto - App de Delivery 
