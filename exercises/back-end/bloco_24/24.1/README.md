@@ -1,4 +1,4 @@
-# Aggregation Framework - Parte 1
+# Updates Simples
 
 ### Tecnologias:
 
@@ -8,47 +8,26 @@
 
 ### Objetivos:
 
-- Filtrar documentos com o estágio `$match` ;
-- Limitar os resultados com `$limit` ;
-- Fazer agrupamentos com o `$group` ;
-- Controlar a exibição de campos com o `$project` .
-- Trabalhar com arrays com o `$unwind` ;
-- Juntar dados de uma ou mais coleções com o `$lookup` ;
+- Utilizar o método `updateOne()` ;
+- Utilizar o método `updateMany()` ;
+- Utilizar os operadores `$set` , `$mul` , `$inc` , `$min` , `$max` e `$currentDate` ;
+- Renomear campos;
+- Remover campos.
 
 ---
 
 ### Exercícios:
 
-- Exercício 1: Utilizando o estágio $match , escreva uma agregação para retornar somente os clientes do sexo "MASCULINO" .
-- Exercício 2: Utilizando o estágio $match , escreva uma agregação para retornar somente os clientes do sexo "FEMININO" e com data de nascimento entre os anos de 1995 e 2005 .
-- Exercício 3: Utilizando o estágio $match , escreva uma agregação para retornar somente os clientes do sexo "FEMININO" e com data de nascimento entre os anos de 1995 e 2005 , limitando a quantidade de documentos retornados em 5 .
-- Exercício 4: Conte quantos clientes do estado SC existem na coleção. Retorne um documento em que o campo _id contenha a UF e outro campo com o total.
-- Exercício 5: Agrupe os clientes por sexo . Retorne o total de clientes de cada sexo no campo total .
-- Exercício 6: Agrupe os clientes por sexo e uf . Retorne o total de clientes de cada sexo no campo total .
-- Exercício 7 : Utilizando a mesma agregação do exercício anterior, adicione um estágio de projeção para modificar os documentos de saída, de forma que se pareçam com o documento a seguir (não se importe com a ordem dos campos):
-```
-{
-  "estado": "SP",
-  "sexo": "MASCULINO",
-  "total": 100
-}
-```
-- Exercício 8 : Descubra quais são os 5 clientes que gastaram o maior valor.
-- Exercício 9 : Descubra quais são os 10 clientes que gastaram o maior valor no ano de 2019 .
-- Exercício 10 : Descubra quantos clientes compraram mais de 5 vezes. Retorne um documento que contenha somente o campo clientes com o total de clientes.
-- Exercício 11 : Descubra quantos clientes compraram menos de três vezes entre os meses de Janeiro de 2020 e Março de 2020 .
-- Exercício 12 : Descubra quais as três uf s que mais compraram no ano de 2020 . Retorne os documentos no seguinte formato:
-~~~
-{
-  "totalVendas": 10,
-  "uf": "SP"
-}
-~~~
-- Exercício 13 : Encontre qual foi o total de vendas e a média de vendas de cada uf no ano de 2019 . Ordene os resultados pelo nome da uf . Retorne os documentos no seguinte formato:
-~~~
-{
-  "_id": "MG",
-  "mediaVendas": 9407.129225352113,
-  "totalVendas": 142
-}
-~~~
+- Exercício 1 : Altere o imdbRating para 7.7 no filme Batman.
+- Exercício 2 : Altere budget para 1 no filme Godzilla .
+- Exercício 3 : Altere budget para 15 e imdbRating para 5.5 no filme Home Alone .
+- Exercício 4 : Aumente em 2 o imdbRating do filme Batman .
+- Exercício 5 : Aumente em 5 o budget do filme Home Alone .
+- Exercício 6 : Multiplique por 4 o imdbRating do filme Batman .
+- Exercício 7 : Renomeie o campo budget para estimatedBudget do filme Batman .
+- Exercício 8 : Utilize o operador $min para alterar o budget para 5 do filme Home Alone .
+- Exercício 9 : Utilize o operador $max para alterar o imdbRating para 8.6 do filme Godzilla . Além disso, altere a categoria "adventure" para "thriller" do filme Godzilla .
+- Exercício 10 : Utilizando o operador $currentDate , crie um campo chamado lastUpdated com o tipo timestamp no filme Home Alone .
+- Exercício 11 : Utilizando uma única operação, crie um campo chamado sequels e atribua a ele o valor 0 em todos os documentos.
+- Exercício 12 : Utilizando uma única operação, remova os campos budget e estimatedBudget em todos os documentos.
+- Exercício 13 : Para os filmes Batman ou Home Alone , atribua a imdbRating o valor 17 , caso o valor de imdbRating seja menor que 17 .
