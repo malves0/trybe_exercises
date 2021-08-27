@@ -2,10 +2,7 @@
 
 ## Tecnologias:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1024px-Node.js_logo.svg.png" alt="nodejs" width="70" height="40"/>
-<img src="./img/chai.png" lt="chai" width="40" height="40"/>
-<img src="./img/mocha.svg" lt="chai" width="40" height="40"/>
-<img src="./img/sinonjs.png" lt="chai" width="80" height="30"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1024px-Node.js_logo.svg.png" alt="nodejs" width="70" height="40"/> <img src="./img/chai.png" lt="chai" width="40" height="40"/> <img src="./img/mocha.svg" lt="chai" width="40" height="40"/> <img src="./img/sinonjs.png" lt="chai" width="80" height="30"/>
 
 ---
 
