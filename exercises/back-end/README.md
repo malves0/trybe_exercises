@@ -10,7 +10,7 @@
 
 - [X] Bloco 24: MongoDB: Updates Simples e Complexos 
 
-- [ ] Bloco 25: MongoDB: Aggregation Framework 
+- [X] Bloco 25: MongoDB: Aggregation Framework 
 
 - [ ] Bloco 26: Introdução ao desenvolvimento Web com NodeJS 
 
