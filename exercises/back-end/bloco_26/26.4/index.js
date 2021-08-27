@@ -9,8 +9,9 @@ app.get('/ping', (_req, res) => {
 });
 
 // 2
-app.post('/hello', (_req, res) => {
-
+app.post('/hello', (req, res) => {
+  const { name } = req.body;
+  res.status(200).json({ 'message': `Hello, ${name}`})
 });
 
 app.listen(3000, function () {
