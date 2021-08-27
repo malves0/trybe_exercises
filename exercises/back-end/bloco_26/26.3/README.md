@@ -6,6 +6,7 @@
 <img src="./img/chai.png" lt="chai" width="40" height="40"/>
 <img src="./img/mocha.svg" lt="chai" width="40" height="40"/>
 <img src="./img/sinonjs.png" lt="chai" width="80" height="30"/>
+
 ---
 
 ## Objetivos:
