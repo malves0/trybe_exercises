@@ -41,5 +41,15 @@
   1. A fórmula para calcular velocidade média é distância / tempo .
   2. Armazene o script no arquivo `velocidade.js`.
   3. Agora, permita que o script seja executado através do comando `npm run velocidade` . Para isso, crie a chave velocidade dentro do objeto scripts no `package.json` .
-  4. Utilize o readline-sync para solicitar os dados à pessoa.
+  4. Utilize o `readline-sync` para solicitar os dados à pessoa.
   5. Considere a distância em metros e o tempo em segundos. Repare que, agora, estamos trabalhando com números inteiros.
+
+---
+#### **3.Crie um "jogo de adivinhação" em que a pessoa ganha se acertar qual foi o número aleatório gerado**
+  1. O script deve ser executado através do comando `npm run sorteio` .
+  2. Utilize o `readline-sync` para realizar input de dados.
+  3. Armazene o script em `sorteio.js` .
+  4. O número gerado deve ser um inteiro entre 0 e 10.
+  5. Caso a pessoa acerte o número, exiba na tela "Parabéns, número correto!".
+  6. Caso a pessoa erre o número, exiba na tela "Opa, não foi dessa vez. O número era [número sorteado]".
+  7. Ao final, pergunte se a pessoa deseja jogar novamente. Se sim, volte ao começo do script.
