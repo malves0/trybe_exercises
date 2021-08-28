@@ -17,7 +17,7 @@
 
 ### Exercícios:
 
-#### 1. Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
+#### **1. Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.**
 1. A fórmula para calcular o IMC é peso / altura ^ 2 .
 2. Comece criando um novo pacote node com npm init e respondendo às perguntas do npm .
 3. Por enquanto, não se preocupe em pedir input da pessoa usuária. Utilize valores fixos para peso e altura .
@@ -35,3 +35,21 @@
 | Entre 30,0 e 34,9                         | Obesidade grau I          |
 | Entre 35,0 e 39,9                         | Obesidade grau II         |
 | 40,0 e acima                              | Obesidade graus III e IV  |
+
+---
+#### **2. Vamos criar mais um script. Dessa vez, para calcular a velocidade média de um carro numa corrida**
+  1. A fórmula para calcular velocidade média é distância / tempo .
+  2. Armazene o script no arquivo `velocidade.js`.
+  3. Agora, permita que o script seja executado através do comando `npm run velocidade` . Para isso, crie a chave velocidade dentro do objeto scripts no `package.json` .
+  4. Utilize o `readline-sync` para solicitar os dados à pessoa.
+  5. Considere a distância em metros e o tempo em segundos. Repare que, agora, estamos trabalhando com números inteiros.
+
+---
+#### **3.Crie um "jogo de adivinhação" em que a pessoa ganha se acertar qual foi o número aleatório gerado**
+  1. O script deve ser executado através do comando `npm run sorteio` .
+  2. Utilize o `readline-sync` para realizar input de dados.
+  3. Armazene o script em `sorteio.js` .
+  4. O número gerado deve ser um inteiro entre 0 e 10.
+  5. Caso a pessoa acerte o número, exiba na tela "Parabéns, número correto!".
+  6. Caso a pessoa erre o número, exiba na tela "Opa, não foi dessa vez. O número era [número sorteado]".
+  7. Ao final, pergunte se a pessoa deseja jogar novamente. Se sim, volte ao começo do script.
