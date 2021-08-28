@@ -17,7 +17,7 @@
 
 ### Exercícios:
 
-#### 1. Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
+#### **1. Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.**
 1. A fórmula para calcular o IMC é peso / altura ^ 2 .
 2. Comece criando um novo pacote node com npm init e respondendo às perguntas do npm .
 3. Por enquanto, não se preocupe em pedir input da pessoa usuária. Utilize valores fixos para peso e altura .
@@ -35,3 +35,11 @@
 | Entre 30,0 e 34,9                         | Obesidade grau I          |
 | Entre 35,0 e 39,9                         | Obesidade grau II         |
 | 40,0 e acima                              | Obesidade graus III e IV  |
+
+---
+#### **2. Vamos criar mais um script. Dessa vez, para calcular a velocidade média de um carro numa corrida**
+  1. A fórmula para calcular velocidade média é distância / tempo .
+  2. Armazene o script no arquivo `velocidade.js`.
+  3. Agora, permita que o script seja executado através do comando `npm run velocidade` . Para isso, crie a chave velocidade dentro do objeto scripts no `package.json` .
+  4. Utilize o readline-sync para solicitar os dados à pessoa.
+  5. Considere a distância em metros e o tempo em segundos. Repare que, agora, estamos trabalhando com números inteiros.
