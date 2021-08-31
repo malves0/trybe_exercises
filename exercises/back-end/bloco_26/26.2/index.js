@@ -1,12 +1,10 @@
-const fs = require('fs').promises; // realiza leitura de arquivos
+const fs = require('fs').promises; 
 
-function readAll(){
+function getSimpsonId(id) {
   fs.readFile('./simpsons.json', 'utf-8')
-    .then((res) => {
-      return JSON.parse(res)
-   })
-    .then((simpsons) => {
-      return console.log(simpsons
-        .map(({ id, name }) => `${id} - ${ name}`))
-    });
+    .then((res) => JSON.parse(res))
+    .then((simpsons) => simpsons
+      .find((simp) => parseInt(simp.id) === id))
+    .then((person) => console.log(person))
 }
+getSimpsonId(6);
