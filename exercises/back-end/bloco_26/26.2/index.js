@@ -1,4 +1,3 @@
-//2
 const { compareNum } = require('./CompareNum.js');
 
 function randomNumber() {
