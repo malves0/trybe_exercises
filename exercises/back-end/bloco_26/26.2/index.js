@@ -1,18 +1,16 @@
-function compareNum(num1, num2, num3) {
-  return new Promise((resolve, reject) => {
-    if (typeof num1 !== 'number' || typeof num2 !== 'number' || typeof num3 !== 'number')
-      reject('Informe apenas números');
-    
-      const resultado = (num1 + num2) * num3;
+//2
+const { compareNum } = require('./CompareNum.js');
 
-      if (resultado < 50 ) {
-        return reject('Valor muito baixo');
-      }
-    
-      resolve(resultado);
-  })
+function randomNumber() {
+  return Math.floor(Math.random() * 100 + 1);
 }
 
-compareNum('1', 0, 10)
-  .then(resolve => console.log(resolve))
-  .catch( error =>  console.error(error))
+function Compare() {
+  return (
+    compareNum(randomNumber(),randomNumber(),randomNumber())
+      .then((res) => console.log(res))
+      .catch((error) => console.error(error.message))
+  );
+}
+
+Compare();
