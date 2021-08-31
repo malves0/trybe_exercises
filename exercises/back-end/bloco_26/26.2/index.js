@@ -4,12 +4,21 @@ function randomNumber() {
   return Math.floor(Math.random() * 100 + 1);
 }
 
-function Compare() {
+/* function Compare() {
   return (
     compareNum(randomNumber(),randomNumber(),randomNumber())
       .then((res) => console.log(res))
       .catch((error) => console.error(error.message))
   );
+} */
+
+async function Compare() {
+  try {
+    const result = await compareNum(randomNumber(),randomNumber(),randomNumber())
+    console.log(result);
+  } catch (error) {
+    console.error(error.menssage);
+  }
 }
 
 Compare();
