@@ -9,7 +9,9 @@ app.use(bodyParser.json());
 // Middlewares
 app.post('/user',
   validationsUser.validateFirstName,
-  validationsUser.validateLastName
+  validationsUser.validateLastName,
+  validationsUser.validateEmail,
+  validationsUser.validatePassword
 );
 
 
