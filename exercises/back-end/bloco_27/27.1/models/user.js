@@ -1,2 +1,0 @@
-const connection = require('./connection');
-

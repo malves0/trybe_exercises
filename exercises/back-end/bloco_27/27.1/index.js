@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const { validationsUser } = require('./middlewares');
+const createNewUser = require('./middlewares/createUser');
 
 const app = express();
 app.use(bodyParser.json());
@@ -11,9 +12,9 @@ app.post('/user',
   validationsUser.validateFirstName,
   validationsUser.validateLastName,
   validationsUser.validateEmail,
-  validationsUser.validatePassword
+  validationsUser.validatePassword,
+  createNewUser
 );
-
 
 const PORT = '3000';
 
