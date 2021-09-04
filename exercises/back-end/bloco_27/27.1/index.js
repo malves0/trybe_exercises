@@ -7,7 +7,10 @@ const app = express();
 app.use(bodyParser.json());
 
 // Middlewares
-app.post('/user',validationsUser);
+app.post('/user',
+  validationsUser.validateFirstName,
+  validationsUser.validateLastName
+);
 
 
 const PORT = '3000';

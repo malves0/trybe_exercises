@@ -1,4 +1,4 @@
-const { isValidFirstname } = require('express-validations');
+const { isValidFirstname, isValidLastname } = require('express-validations');
 const { UNAUTHORIZED } =  require('../utils/statusHttp');
 
 const validateFirstName = (req, res, next) => {
@@ -9,4 +9,12 @@ const validateFirstName = (req, res, next) => {
   next();
 }
 
-module.exports = validateFirstName;
+const validateLastName = (req, res, next) => {
+  const { lastName } = req.body;
+  if(!isValidLastname(lastName)) {
+    return res.status(UNAUTHORIZED).json({ 'message': 'Last name is required'})
+  }
+  next();
+}
+
+module.exports = {validateFirstName, validateLastName };
