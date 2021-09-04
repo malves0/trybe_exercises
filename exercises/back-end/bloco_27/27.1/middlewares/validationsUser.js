@@ -36,10 +36,10 @@ const validateEmail = (req, res, next) => {
 
 const validatePassword = (req, res, next) => {
   const { password } = req.body;
-  if(!isStrongPassword(password)) {
+  if(password.length < 6) {
     return res.status(UNAUTHORIZED).json({
       "error": true,
-      "message": 'Strong password is required'
+      "message": "O campo 'password' deve ter pelo menos 6 caracteres"
     })
   }
   next();
