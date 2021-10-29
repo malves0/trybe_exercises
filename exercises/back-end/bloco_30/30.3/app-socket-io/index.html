@@ -4,10 +4,16 @@
     <title>Socket.IO - trybe</title>
   </head>
   <body>
+    <button id='pingButton'>PING</button>
     <script src="/socket.io/socket.io.js"></script>
     <script>
       const socket = io();
+      const button = document.querySelector('#pingButton');
 
+      button.addEventListener('click', (e) => {
+        socket.emit('ping');
+        return false;
+      });
     </script>
   </body>
 
